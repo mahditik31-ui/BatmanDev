@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: black;
+}
+.navbar img{
+    width: 100px;
+    padding-left: 30px;
+    padding: 10px;
+    cursor:pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(68, 68, 68);
+}
+nav a{
+    padding-right: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Metal Mania", system-ui;
+    color: black;
+}
+nav a:hover{
+    color: blueviolet;
+}
+.home h1{
+    color: azure;
+    padding-left:47%;
+    font-family: "Metal Mania", system-ui;
+    display: flex;
+    padding-bottom: 100px;
+    font-size: 102px;
+}
+.imgp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home img{
+    padding-left: 1%;
+    display: flex;
+}
+.home p {
+    color: azure;
+    display: flex;
+    font-size: 60px;
+    padding-left: 50px;
+    font-family: "Metal Mania", system-ui;
+}
+.imgp2 {
+    display: flex;
+    
+    font-size: 100px;
+    padding-top: 330px;
+    justify-content: center;
+    align-items: center;
+}
+.imgp2 a{
+    color: rgb(66, 66, 66);
+}
